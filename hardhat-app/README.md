@@ -13,3 +13,4 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+Whitelist Contract Address 0x378adF2f0D8Ab8092Cff4a41a8E8827E9A89dEDC
