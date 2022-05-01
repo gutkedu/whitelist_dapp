@@ -1,66 +1,67 @@
 export const abi = [
   {
-    "inputs": [
+    inputs: [
       {
-        "internalType": "uint8",
-        "name": "_maxWhitelistedAddresses",
-        "type": "uint8"
-      }
+        internalType: "uint8",
+        name: "_maxWhitelistedAddresses",
+        type: "uint8",
+      },
     ],
-    "stateMutability": "nonpayable",
-    "type": "constructor"
+    stateMutability: "nonpayable",
+    type: "constructor",
   },
   {
-    "inputs": [],
-    "name": "addAddressToWhitelist",
-    "outputs": [],
-    "stateMutability": "nonpayable",
-    "type": "function"
+    inputs: [],
+    name: "addAddressToWhitelist",
+    outputs: [],
+    stateMutability: "nonpayable",
+    type: "function",
   },
   {
-    "inputs": [],
-    "name": "maxWhitelistedAddresses",
-    "outputs": [
+    inputs: [],
+    name: "maxWhitelistedAddresses",
+    outputs: [
       {
-        "internalType": "uint8",
-        "name": "",
-        "type": "uint8"
-      }
+        internalType: "uint8",
+        name: "",
+        type: "uint8",
+      },
     ],
-    "stateMutability": "view",
-    "type": "function"
+    stateMutability: "view",
+    type: "function",
   },
   {
-    "inputs": [],
-    "name": "numAddressesWhitelisted",
-    "outputs": [
+    inputs: [],
+    name: "numAddressesWhitelisted",
+    outputs: [
       {
-        "internalType": "uint8",
-        "name": "",
-        "type": "uint8"
-      }
+        internalType: "uint8",
+        name: "",
+        type: "uint8",
+      },
     ],
-    "stateMutability": "view",
-    "type": "function"
+    stateMutability: "view",
+    type: "function",
   },
   {
-    "inputs": [
+    inputs: [
       {
-        "internalType": "address",
-        "name": "",
-        "type": "address"
-      }
+        internalType: "address",
+        name: "",
+        type: "address",
+      },
     ],
-    "name": "whitelistedAddresses",
-    "outputs": [
+    name: "whitelistedAddresses",
+    outputs: [
       {
-        "internalType": "bool",
-        "name": "",
-        "type": "bool"
-      }
+        internalType: "bool",
+        name: "",
+        type: "bool",
+      },
     ],
-    "stateMutability": "view",
-    "type": "function"
-  }
+    stateMutability: "view",
+    type: "function",
+  },
 ];
-export const WHITELIST_CONTRACT_ADDRESS = "0x378adF2f0D8Ab8092Cff4a41a8E8827E9A89dEDC";
+export const WHITELIST_CONTRACT_ADDRESS =
+  "0x7f977139D9072374BFE669CB055Db7E6c8f13BC3";
